@@ -6,7 +6,7 @@ import { HeaderStyled } from './styles/Header.styles';
 
 const Header: React.FC<HeaderProps> = ({title}) => {
     return (
-        <HeaderStyled bg='yellow'>
+        <HeaderStyled>
             <h1>{title}</h1>
         </HeaderStyled>
      );
