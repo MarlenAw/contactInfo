@@ -40,6 +40,7 @@ const TTheme: DefaultTheme = {
     yellowLight: '#FEF9EE',
     yellowDark: '#F1A90E',
   },
+  mobile: '768px'
 };
 
 export { TTheme };
