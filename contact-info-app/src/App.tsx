@@ -1,11 +1,16 @@
 import React from 'react';
-import {Container} from './components/styles/Container.styles';
+import Header from './components/Header';
+import {ContainerStyled} from './components/styles/Container.styles';
 
 function App() {
   return (
-    <Container>
-      <div>hello mrlnnddsssssnn</div>
-    </Container>
+    <>
+      <Header title='this is header'/>
+      <ContainerStyled>
+        <div>hello mrlnnnn!!!!!</div>
+      </ContainerStyled>
+    </>
+   
   );
 }
 
