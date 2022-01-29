@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderStyled = styled.header<{bg?: string}>`
+export const HeaderStyled = styled.header`
     padding: 40px 0;
-    background-color: ${(props)=> props.bg};
+    background-color: ${({theme})=> theme.colors.main};
 `;
