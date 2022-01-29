@@ -31,6 +31,7 @@ declare module 'styled-components' {
       pink?: string;
       pinkLight?: string;
       pinkDark?: string;
+      pinkMagenta?: string;
       purple?: string;
       purpleLight?: string;
       purpleDark?: string;

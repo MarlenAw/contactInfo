@@ -28,6 +28,7 @@ const TTheme: DefaultTheme = {
     pink: '#DA51BE',
     pinkLight: '#FDF0FA',
     pinkDark: '#E01FB3',
+    pinkMagenta: '#ff0099',
     purple: '#8851DA',
     purpleLight: '#F3EEFB',
     purpleDark: '#6D30CF',
