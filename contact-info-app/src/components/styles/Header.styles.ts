@@ -10,9 +10,18 @@ export const NavStyled = styled.nav`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        flex-direction: column;
+    }
 `;
 
 export const LogoStyled = styled.img`
     width: 50px;
     padding: 40px 0;
+`;
+
+export const ImageStyled = styled.img`
+    width: 375px;
+    margin-left: 40px;
 `;

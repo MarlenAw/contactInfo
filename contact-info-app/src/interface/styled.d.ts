@@ -43,5 +43,7 @@ declare module 'styled-components' {
       yellowLight?: string;
       yellowDark?: string;
     };
+
+    mobile?: string;
   }
 }
