@@ -19,9 +19,17 @@ export const NavStyled = styled.nav`
 export const LogoStyled = styled.img`
     width: 50px;
     padding: 40px 0;
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        margin-bottom: 40px;
+    }
 `;
 
 export const ImageStyled = styled.img`
     width: 375px;
     margin-left: 40px;
+
+    @media(max-width: ${({theme}) => theme.mobile}){
+        margin-bottom: 40px 0 30px;
+    }
 `;

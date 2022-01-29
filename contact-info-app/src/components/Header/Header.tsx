@@ -25,6 +25,7 @@ const Header: React.FC<HeaderProps> = () => {
                 </div>
                 <ImageStyled src="./images/black-watch.jpeg"/>
             </FlexDivStyled>
+            
         </HeaderStyled>
      );
 
